@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/Credit Card landing page/icons/black-credit-cards-payment-icon-transparent-png-21635327061vzfpjfeihf.png">
+  <title>Credit Cards</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          'sans': ['ui-sans-serif', 'system-ui'],
+          'serif': ['poppins','Georgia'],
+          'mono': ['ui-monospace', 'SFMono-Regular'],
+    }
+    }
+    }
+  </script>
+</head>
+<body>
+  <header class="h-[140vh] bg-slate-900">
+    <nav class="flex items-center justify-between px-[5%] py-5">
+      <div>
+        <img src="./images/Logo.svg" alt="logo">
+      </div>
+      <div>
+        <ul class="flex items-center text-white font-serif">
+          <li class="mr-8 hover:text-fuchsia-500 cursor-pointer">Home</li>
+          <li class="mr-8 hover:text-fuchsia-500 cursor-pointer">Features</li>
+          <li class="mr-8 hover:text-fuchsia-500 cursor-pointer">Pricing</li>
+          <li class="hover:text-fuchsia-500 cursor-pointer">About Us</li>
+        </ul>
+      </div>
+      <div class="flex items-center text-white">
+        <p class="flex mr-8">Eng<span class="material-symbols-outlined">
+          arrow_drop_down
+          </span>
+        </p>
+        <div>
+          <img class="absolute z-10 right-28 top-[34px]" src="./images/btn-pink-bg.svg" alt="bg-icon">
+          <p class="relative z-20">Contact Us</p>
+        </div>
+      </div>
+    </nav>
+    <section class="pl-[5%] h-[120vh] relative overflow-hidden">
+      <img class="absolute right-[-20px] top-[-60px] z-10" src="./images/backCards.png" alt="backcards">
+      <img class="absolute right-[-240px] z-20 brightness-50" src="./images/frontCards.png" alt="frontCards">
+      <p class="text-[80px] text-white mt-10">Simplify All Transactions <br>in <span class="text-fuchsia-500 font-semibold">One Card</span></p>
+      <p class="text-slate-400 my-[3%] text-xl">Hurry up and join now, with this you can mangae your daily <br>finances easily and safely</p>
+      <div class="group my-[9%] flex items-center cursor-pointer">
+        <img class="absolute w-32 h-8 left-8" src="./images/btn-pink-bg.svg" alt="bg-icon">
+        <p class="relative left-9 z-20 text-white text-xl font-medium">GET STARTED</p>
+        <img class="group-hover:w-14 transition-all absolute left-60 w-0" src="./images/RightArrow.svg" alt="right-arrow">
+      </div>
+      <div class="flex text-white pt-14">
+        <div class="flex items-center mr-10">
+          <p class="text-5xl">42K<span class="text-fuchsia-500">+</span></p>
+          <p class="text-lg ml-3">Happy <br>Active User</p>
+        </div>
+        <img src="./images/Vector 402.svg" alt="">
+        <div class="flex items-center ml-10">
+          <p class="text-5xl">12K<span class="text-fuchsia-500">+</span></p>
+          <p class="text-lg ml-3 z-30">Years <br>Experience</p>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- section 1 start -->
+    <section class="flex items-center justify-around h-[30vh] bg-gray-900 px-[7%]">
+      <img src="./images/Logo.svg" alt="logo">
+      <img src="./images/Logo.svg" alt="logo">
+      <img src="./images/Logo.svg" alt="logo">
+      <img src="./images/Logo.svg" alt="logo">
+      <img src="./images/Logo.svg" alt="logo">
+    </section>
+    <!-- section 1 end -->
+    <!-- section 2 start -->
+    <section class="h-[140vh] bg-slate-900 px-[5%] py-[10%]">
+      <div class="flex items-center justify-between">
+        <p class="text-white text-7xl leading-snug">The best payment <br>service for <span class="text-fuchsia-500">your <br> transactions</span></span></p>
+        <p class="text-2xl leading-10 text-slate-300">The following are the services we provide <br>to users, with the services we maximize <br>it is hoped that users are satisfied with <br>what we provide.</p>
+      </div>
+      <div class="flex items-center justify-around py-[10%]">
+        <div class="border border-slate-500 text-slate-300 text-center bg-gray-800 w-[300px] h-[250px] py-[3%] hover:scale-110 transition-all">
+          <img class="mx-auto w-[120px]" src="./images/dollar-circle.svg" alt="dollar">
+          <p class="mt-5 text-2xl">Free transaction fee</p>
+        </div>
+        <div class="relative top-[-30px] border-2 border-slate-500 text-slate-300 text-center bg-gradient-to-br from-gray-900 to-slate-400 w-[300px] h-[250px] py-[3%] hover:scale-110 transition-all">
+          <img class="mx-auto mb-4 w-[120px]" src="./images/cloud-add.svg" alt="cloud">
+          <p class="text-2xl">easy to access <br> anytime and anywhere</p>
+        </div>
+        <div class="border border-slate-500 text-slate-300 text-center bg-gray-900 w-[300px] h-[250px] py-[3%] hover:scale-110 transition-all">
+          <img class="mx-auto w-[120px]" src="./images/lock.svg" alt="dollar">
+          <p class="mt-5 text-2xl">Guaranteed Safety</p>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 end -->
+    <!-- section 3 start -->
+    <section class="relative h-[160vh] bg-fuchsia-100 py-[8%] text-center">
+      <img class="absolute w-[70%] left-[15%] top-[30%]" src="./images/VCards.png" alt="vcards">
+      <p class="text-7xl leading-tight">Unique and intresting <br><span class="text-fuchsia-500 font-medium">card choices</span></p>
+      <p class="text-xl text-slate-500 mt-10">we provide card editing featuresm where users can edit unique cards <br>according to the wishes and preferences of the users themselves.</p>
+    </section>
+    <!-- section 3 end -->
+    <section class="h-[250vh] py-[8%] text-center bg-gray-900">
+      <p class="text-7xl leading-tight text-white">Customers are satisfied with <br><span class="text-fuchsia-500 font-medium">the features</span> we provide</p>
+      <p class="text-slate-500 text-xl my-[4%]">with the various features that we provide, therefore many <br> customers like the features that we provide.</p>
+      <div class="w-[90%] mx-auto flex flex-wrap justify-center mt-24">
+        <div class="flex flex-col items-start justify-between w-[40%] h-[200px] text-slate-500 border border-slate-500 py-5 pl-5 mr-16 mb-10 bg-gradient-to-br from-gray-900 to-slate-600 hover:scale-105 transition-all">
+          <img class="w-28" src="./images/5stars.svg" alt="5star">
+          <p>This is the best finance platform I've ever found, lots<br>of features that definitely make me more satisfied!</p>
+          <div class="text-left">
+            <p>Melvin Yoga</p>
+            <p>New york, America</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-between w-[40%] h-[250px] text-slate-500 border border-slate-500 py-5 pl-5 bg-gray-800 hover:scale-105 transition-all">
+          <img class="w-28" src="./images/4stars.svg" alt="5star">
+          <p class="text-left">Very good and recommended financial platforms, the features are very satisfying, you all should try this.</p>
+          <div class="text-left">
+            <p>Gabriel Putra</p>
+            <p>Jakarta,Indonesia</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-between w-[40%] h-[250px] text-slate-500 border border-slate-500 py-5 pl-5 mr-16 bg-gray-800 hover:scale-105 transition-all">
+          <img class="w-28" src="./images/4stars.svg" alt="5star">
+          <p class="text-left">This is the first time i have found a financial platform as good as this, with various features that really help me in managing my finance.</p>
+          <div class="text-left">
+            <p>Farhan Putra</p>
+            <p>Paris, French</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-between w-[40%] h-[200px] text-slate-500 border border-slate-500 py-5 pl-5 mt-10 bg-gradient-to-br from-gray-900 to-slate-600 hover:scale-105 transition-all">
+          <img class="w-28" src="./images/5stars.svg" alt="5star">
+          <p class="text-left">The best financial platform I've ever found, here we can custom cards according to our wishes, i'm very satisfied</p>
+          <div class="text-left">
+            <p>Alex Georgio</p>
+            <p>Wangon, Indoniesia</p>
+          </div>
+        </div>
+      </div> 
+      <div class="relative mt-[15%]">
+        <div class="absolute pt-[7%] px-[10%] z-40">
+          <p class=" text-white text-7xl font-semibold z-30 leading-tight">Let's start <span class="text-gray-900">customizing</span> your <br>card now</p>
+          <div class="group my-[9%] flex items-center justify-center cursor-pointer">
+            <img class="absolute w-32 h-8 left-[42%]" src="./images/btn-pink-bg.svg" alt="bg-icon">
+            <p class="relative left-9 z-20 text-white text-xl font-medium">GET STARTED</p>
+            <img class="group-hover:w-14 transition-all absolute left-[60%] w-0" src="./images/RightArrow.svg" alt="right-arrow">
+          </div>
+        </div>
+        <img class="absolute z-10" src="./images/Rectangle 6773.png" alt="rectangle1">
+        <img class="absolute z-20" src="./images/Rectangle 6774.png" alt="Rectangle2">
+      </div>
+    </section>
+  </main>
+  <footer class="h-[25vh] bg-gray-900 px-[5%] flex items-center justify-around">
+    <div>
+      <img src="./images/Logo.svg" alt="logo">
+    </div>
+    <div>
+      <ul class="flex text-white">
+        <li class="mr-10 hover:text-fuchsia-500 cursor-pointer">Branding</li>
+        <li class="mr-10 hover:text-fuchsia-500 cursor-pointer">Contact Us</li>
+        <li class="mr-10 hover:text-fuchsia-500 cursor-pointer">Privacy Policy</li>
+        <li>FAQs</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
