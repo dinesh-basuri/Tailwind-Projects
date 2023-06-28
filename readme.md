@@ -16,3 +16,7 @@
 ## Hosting Website
 
 [click here to view](https://dinesh-hosting-website.netlify.app/)
+
+## Vegan Store Website
+
+[click here to view](https://dinesh-vegan-store.netlify.app/)
