@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Calculator</title>
+</head>
+<body>
+  <main class="w-[100%] h-[100vh] bg-[#e3f9ff] flex items-center justify-center">
+    <section class="w-[90%] bg-[#3a4452] p-[20px] text-center rounded-2xl sm:w-[80%] md:w-[50%] lg:w-[40%]">
+      <form>
+        <div>
+          <input  class="w-[100%] h-[50px] text-right px-[20px] border-none outline-none mb-5 bg-slate-600 text-white" type="text" name="display">
+        </div>
+        <div>
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="AC" onclick="display.value=''">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="DE" onclick="display.value=display.value.toString().slice(0,-1)">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="." onclick="display.value+='.'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="/" onclick="display.value+='/'">
+        </div>
+        <div>
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="7" onclick="display.value+='7'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="8" onclick="display.value+='8'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="9" onclick="display.value+='9'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="*" onclick="display.value+='*'">
+        </div>
+        <div>
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="4" onclick="display.value+='4'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="5" onclick="display.value+='5'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="6" onclick="display.value+='6'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="-" onclick="display.value+='-'">
+        </div>
+        <div>
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="1" onclick="display.value+='1'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="2" onclick="display.value+='2'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="3" onclick="display.value+='3'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="+" onclick="display.value+='+'">
+        </div>
+        <div>
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="00" onclick="display.value+='00'">
+          <input class="bg-slate-600 rounded-xl w-[50px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="0" onclick="display.value+='0'">
+          <input class="bg-slate-600 rounded-xl w-[130px] h-[50px] text-white m-3 shadow-[2px_2px_5px_black]" type="button" value="=" onclick="display.value = eval(display.value)">
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
