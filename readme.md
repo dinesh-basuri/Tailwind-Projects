@@ -5,6 +5,10 @@
 ### Clone Apps are built just for educational purpose.   
 
 ---
+## Mini projects
+
+[click here to view](./Mini%20Projects/)
+
 ## VS Code Clone
 
 [click here to view](https://dinesh-vscode-clone.netlify.app/)
