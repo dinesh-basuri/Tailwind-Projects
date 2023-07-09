@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Login model</title>
+</head>
+<body>
+  <!-- globel container -->
+  <main class="min-h-screen bg-red-50 flex items-center justify-center px-[10%] py-[5%]">
+    <section class="w-[85%] flex flex-col md:flex-row items-center justify-center bg-white text-black rounded-xl md:p-13 shadow-xl">
+      <!-- left column -->
+      <div class="p-7 md:w-[55%]">
+        <p class="font-bold text-2xl">Log In</p>
+        <p class="my-4 text-slate-500">Log in to your account to upload or download <br>pictures, videos or music</p>
+        <input type="email" placeholder="Enter your email address" class="border border-slate-300 w-full px-5 py-5 rounded-xl">
+        <p class="text-center text-cyan-600 my-5">Forgot password</p>
+        <div class="group border-b border-b-slate-300 pb-10">
+          <button class="flex items-center w-full bg-cyan-600 justify-center text-white text-xl py-5 rounded-xl group-hover:shadow-2xl duration-200 group-hover:bg-cyan-500">Next<span class="material-symbols-outlined ml-3 text-2xl">
+            arrow_right_alt
+            </span></button>
+        </div>
+        <div>
+          <p class="text-center text-sm text-slate-400 py-3">or log in with</p>
+          <div class="flex flex-col space-y-5 md:space-x-5 md:space-y-0 md:flex-row md:justify-center">
+            <div class="flex items-center justify-center space-x-2 border p-2 md:px-7 rounded-lg hover:shadow-xl duration-200">
+              <img class="w-8" src="./images/facebook.png">
+              <p>facebook</p>
+            </div>
+            <div class="flex items-center space-x-2 border p-2 justify-center md:px-7 rounded-lg hover:shadow-xl duration-200">
+              <img class="w-8" src="./images/google.png">
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- right column -->
+      <div class="md:w-[45%] w-0">
+        <img src="./images/image (1).jpg" class="w-[100%] h-full rounded-r-xl">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
